@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<DataSource xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Provider>Daktronics.RTD</Provider>
+  <DidName>SSScoreboard</DidName>
+  <ListenerUris>
+    <string>udp://localhost:20005?protocol=rtd</string>
+  </ListenerUris>
+</DataSource>
