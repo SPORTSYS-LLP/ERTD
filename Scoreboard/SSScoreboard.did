@@ -1,4 +1,4 @@
-<DataInterfaceDefinition version="2022-08-01T23:40:14.2656531+01:00">
+<DataInterfaceDefinition version="2022-08-05T16:14:27.9079575+01:00">
   <DataSource provider="Daktronics.Rtd" description="SSScoreboard Rtd">
     <Query name="RtdData" category="" description="SSScoreboard Rtd" text="SSScoreboard_Rtd" type="1" interval="0" dynamic="true" valuesquery="" show="true" baseoffset="0">
       <Results>
@@ -23,7 +23,7 @@
         <Result name="Line_1_Swimmer_Name" description="Line 1 Swimmer Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNNNE" offset="137" length="22" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_1_Club_Full_Name" description="Line 1 Club Full Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNE" offset="159" length="32" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_1_Club_Name" description="Line 1 Club Name" type="string" sampleData="SNNNNNNNNNNE" offset="191" length="12" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="LIne_1_Club_Code" description="LIne 1 Club Code" type="string" sampleData="ABCD" offset="203" length="4" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line_1_Club_Code" description="Line 1 Club Code" type="string" sampleData="ABCD" offset="203" length="4" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_1_Lane" description="Line 1 Lane" type="string" sampleData="LLL" offset="207" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_1_Place" description="Line 1 Place" type="string" sampleData="PP" offset="210" length="2" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Right" />
         <Result name="Line_1_Time" description="Line 1 Time" type="string" sampleData="00:00.00" offset="212" length="8" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Right" />
@@ -40,7 +40,7 @@
         <Result name="Line_2_Swimmer_Name" description="Line 2 Swimmer Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNNNE" offset="264" length="22" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_2_Club_Full_Name" description="Line 2 Club Full Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNE" offset="286" length="32" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_2_Club_Name" description="Line 2 Club Name" type="string" sampleData="SNNNNNNNNNNE" offset="318" length="12" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="LIne_2_Club_Code" description="LIne 2 Club Code" type="string" sampleData="ABCD" offset="330" length="4" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line_2_Club_Code" description="Line 2 Club Code" type="string" sampleData="ABCD" offset="330" length="4" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_2_Lane" description="Line 2 Lane" type="string" sampleData="LLL" offset="334" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_2_Place" description="Line 2 Place" type="string" sampleData="PP" offset="337" length="2" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Right" />
         <Result name="Line_2_Time" description="Line 2 Time" type="string" sampleData="00:00.00" offset="339" length="8" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Right" />
@@ -57,7 +57,7 @@
         <Result name="Line_3_Swimmer_Name" description="Line 3 Swimmer Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNNNE" offset="391" length="22" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_3_Club_Full_Name" description="Line 3 Club Full Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNE" offset="413" length="32" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_3_Club_Name" description="Line 3 Club Name" type="string" sampleData="SNNNNNNNNNNE" offset="445" length="12" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="LIne_3_Club_Code" description="LIne 3 Club Code" type="string" sampleData="ABCD" offset="457" length="4" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line_3_Club_Code" description="Line 3 Club Code" type="string" sampleData="ABCD" offset="457" length="4" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_3_Lane" description="Line 3 Lane" type="string" sampleData="LLL" offset="461" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_3_Place" description="Line 3 Place" type="string" sampleData="PP" offset="464" length="2" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Right" />
         <Result name="Line_3_Time" description="Line 3 Time" type="string" sampleData="00:00.00" offset="466" length="8" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Right" />
@@ -74,7 +74,7 @@
         <Result name="Line_4_Swimmer_Name" description="Line 4 Swimmer Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNNNE" offset="518" length="22" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_4_Club_Full_Name" description="Line 4 Club Full Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNE" offset="540" length="32" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_4_Club_Name" description="Line 4 Club Name" type="string" sampleData="SNNNNNNNNNNE" offset="572" length="12" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="LIne_4_Club_Code" description="LIne 4 Club Code" type="string" sampleData="ABCD" offset="584" length="4" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line_4_Club_Code" description="Line 4 Club Code" type="string" sampleData="ABCD" offset="584" length="4" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_4_Lane" description="Line 4 Lane" type="string" sampleData="LLL" offset="588" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_4_Place" description="Line 4 Place" type="string" sampleData="PP" offset="591" length="2" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Right" />
         <Result name="Line_4_Time" description="Line 4 Time" type="string" sampleData="00:00.00" offset="593" length="8" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Right" />
@@ -91,7 +91,7 @@
         <Result name="Line_5_Swimmer_Name" description="Line 5 Swimmer Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNNNE" offset="645" length="22" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_5_Club_Full_Name" description="Line 5 Club Full Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNE" offset="667" length="32" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_5_Club_Name" description="Line 5 Club Name" type="string" sampleData="SNNNNNNNNNNE" offset="699" length="12" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="LIne_5_Club_Code" description="LIne 5 Club Code" type="string" sampleData="ABCD" offset="711" length="4" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line_5_Club_Code" description="Line 5 Club Code" type="string" sampleData="ABCD" offset="711" length="4" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_5_Lane" description="Line 5 Lane" type="string" sampleData="LLL" offset="715" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_5_Place" description="Line 5 Place" type="string" sampleData="PP" offset="718" length="2" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Right" />
         <Result name="Line_5_Time" description="Line 5 Time" type="string" sampleData="00:00.00" offset="720" length="8" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Right" />
@@ -108,7 +108,7 @@
         <Result name="Line_6_Swimmer_Name" description="Line 6 Swimmer Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNNNE" offset="772" length="22" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_6_Club_Full_Name" description="Line 6 Club Full Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNE" offset="794" length="32" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_6_Club_Name" description="Line 6 Club Name" type="string" sampleData="SNNNNNNNNNNE" offset="826" length="12" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="LIne_6_Club_Code" description="LIne 6 Club Code" type="string" sampleData="ABCD" offset="838" length="4" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line_6_Club_Code" description="Line 6 Club Code" type="string" sampleData="ABCD" offset="838" length="4" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_6_Lane" description="Line 6 Lane" type="string" sampleData="LLL" offset="842" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_6_Place" description="Line 6 Place" type="string" sampleData="PP" offset="845" length="2" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Right" />
         <Result name="Line_6_Time" description="Line 6 Time" type="string" sampleData="00:00.00" offset="847" length="8" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Right" />
@@ -125,7 +125,7 @@
         <Result name="Line_7_Swimmer_Name" description="Line 7 Swimmer Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNNNE" offset="899" length="22" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_7_Club_Full_Name" description="Line 7 Club Full Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNE" offset="921" length="32" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_7_Club_Name" description="Line 7 Club Name" type="string" sampleData="SNNNNNNNNNNE" offset="953" length="12" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="LIne_7_Club_Code" description="LIne 7 Club Code" type="string" sampleData="ABCD" offset="965" length="4" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line_7_Club_Code" description="Line 7 Club Code" type="string" sampleData="ABCD" offset="965" length="4" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_7_Lane" description="Line 7 Lane" type="string" sampleData="LLL" offset="969" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_7_Place" description="Line 7 Place" type="string" sampleData="PP" offset="972" length="2" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Right" />
         <Result name="Line_7_Time" description="Line 7 Time" type="string" sampleData="00:00.00" offset="974" length="8" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Right" />
@@ -142,7 +142,7 @@
         <Result name="Line_8_Swimmer_Name" description="Line 8 Swimmer Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNNNE" offset="1026" length="22" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_8_Club_Full_Name" description="Line 8 Club Full Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNE" offset="1048" length="32" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_8_Club_Name" description="Line 8 Club Name" type="string" sampleData="SNNNNNNNNNNE" offset="1080" length="12" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="LIne_8_Club_Code" description="LIne 8 Club Code" type="string" sampleData="ABCD" offset="1092" length="4" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line_8_Club_Code" description="Line 8 Club Code" type="string" sampleData="ABCD" offset="1092" length="4" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_8_Lane" description="Line 8 Lane" type="string" sampleData="LLL" offset="1096" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_8_Place" description="Line 8 Place" type="string" sampleData="PP" offset="1099" length="2" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Right" />
         <Result name="Line_8_Time" description="Line 8 Time" type="string" sampleData="00:00.00" offset="1101" length="8" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Right" />
@@ -159,7 +159,7 @@
         <Result name="Line_9_Swimmer_Name" description="Line 9 Swimmer Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNNNE" offset="1153" length="22" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_9_Club_Full_Name" description="Line 9 Club Full Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNE" offset="1175" length="32" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_9_Club_Name" description="Line 9 Club Name" type="string" sampleData="SNNNNNNNNNNE" offset="1207" length="12" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="LIne_9_Club_Code" description="LIne 9 Club Code" type="string" sampleData="ABCD" offset="1219" length="4" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line_9_Club_Code" description="Line 9 Club Code" type="string" sampleData="ABCD" offset="1219" length="4" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_9_Lane" description="Line 9 Lane" type="string" sampleData="LLL" offset="1223" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_9_Place" description="Line 9 Place" type="string" sampleData="PP" offset="1226" length="2" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Right" />
         <Result name="Line_9_Time" description="Line 9 Time" type="string" sampleData="00:00.00" offset="1228" length="8" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Right" />
@@ -176,7 +176,7 @@
         <Result name="Line_10_Swimmer_Name" description="Line 10 Swimmer Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNNNE" offset="1280" length="22" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_10_Club_Full_Name" description="Line 10 Club Full Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNE" offset="1302" length="32" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_10_Club_Name" description="Line 10 Club Name" type="string" sampleData="SNNNNNNNNNNE" offset="1334" length="12" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="LIne_10_Club_Code" description="LIne 10 Club Code" type="string" sampleData="ABCD" offset="1346" length="4" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line_10_Club_Code" description="Line 10 Club Code" type="string" sampleData="ABCD" offset="1346" length="4" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_10_Lane" description="Line 10 Lane" type="string" sampleData="3" offset="1350" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_10_Place" description="Line 10 Place" type="string" sampleData="PP" offset="1353" length="2" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Right" />
         <Result name="Line_10_Time" description="Line 10 Time" type="string" sampleData="00:00.00" offset="1355" length="8" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Right" />
