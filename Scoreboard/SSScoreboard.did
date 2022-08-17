@@ -1,11 +1,11 @@
-<DataInterfaceDefinition version="2022-08-05T16:14:27.9079575+01:00">
+<DataInterfaceDefinition version="2022-08-17T17:46:08.6515368+01:00">
   <DataSource provider="Daktronics.Rtd" description="SSScoreboard Rtd">
     <Query name="RtdData" category="" description="SSScoreboard Rtd" text="SSScoreboard_Rtd" type="1" interval="0" dynamic="true" valuesquery="" show="true" baseoffset="0">
       <Results>
         <Result name="Event_Title" description="Event Title" type="string" sampleData="EVENT TITLE SNNNNNNNNNNNNNNNNNNNNNNNNNNE" offset="0" length="40" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Round_Title" description="Round Title" type="string" sampleData="ROUND TITLE 01234567" offset="40" length="20" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Stroke" description="Stroke" type="string" sampleData="Individual Medley" offset="60" length="17" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Blank" description="Blank" type="string" sampleData="" offset="77" length="1" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Mode" description="Mode" type="string" sampleData="" offset="77" length="1" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Distance" description="Distance" type="string" sampleData="1500" offset="78" length="4" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Event" description="Event" type="string" sampleData="000" offset="82" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Heat" description="Heat" type="string" sampleData="00" offset="85" length="2" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
