@@ -1,4 +1,4 @@
-<DataInterfaceDefinition version="2022-08-17T17:46:08.6515368+01:00">
+<DataInterfaceDefinition version="2022-09-16T19:37:21.6971658+01:00">
   <DataSource provider="Daktronics.Rtd" description="SSScoreboard Rtd">
     <Query name="RtdData" category="" description="SSScoreboard Rtd" text="SSScoreboard_Rtd" type="1" interval="0" dynamic="true" valuesquery="" show="true" baseoffset="0">
       <Results>
