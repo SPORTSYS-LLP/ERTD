@@ -1,4 +1,4 @@
-<DataInterfaceDefinition version="2022-09-16T19:38:09.7733377+01:00">
+<DataInterfaceDefinition version="2022-09-18T09:14:10.6212446+01:00">
   <DataSource provider="Daktronics.Rtd" description="SSRelayChallange Rtd">
     <Query name="RtdData" category="" description="SSRelayChallange Rtd" text="SSRelayChallange_Rtd" type="1" interval="0" dynamic="true" valuesquery="" show="true" baseoffset="0">
       <Results>

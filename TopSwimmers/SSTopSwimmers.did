@@ -1,4 +1,4 @@
-<DataInterfaceDefinition version="2022-06-05T18:50:59.5808891+01:00">
+<DataInterfaceDefinition version="2022-09-18T09:16:05.3828548+01:00">
   <DataSource provider="Daktronics.Rtd" description="SSTopSwimmers Rtd">
     <Query name="RtdData" category="" description="SSTopSwimmers Rtd" text="SSTopSwimmers_Rtd" type="1" interval="0" dynamic="true" valuesquery="" show="true" baseoffset="0">
       <Results>

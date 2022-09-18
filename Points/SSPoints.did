@@ -1,50 +1,50 @@
-<DataInterfaceDefinition version="2022-09-16T19:17:16.0681553+01:00">
+<DataInterfaceDefinition version="2022-09-18T09:07:59.5470577+01:00">
   <DataSource provider="Daktronics.Rtd" description="SSPoints Rtd">
     <Query name="RtdData" category="" description="SSPoints Rtd" text="SSPoints_Rtd" type="1" interval="0" dynamic="true" valuesquery="" show="true" baseoffset="0">
       <Results>
         <Result name="Title" description="Title" type="string" sampleData="Top Club" offset="0" length="8" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Event" description="Event" type="string" sampleData="1" offset="8" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Blank" description="Blank" type="string" sampleData="" offset="11" length="59" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team1Place" description="Team1Place" type="string" sampleData="1" offset="70" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team1FullName" description="Team1FullName" type="string" sampleData="Team 1 Full Name" offset="73" length="47" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team1MeetName" description="Team1MeetName" type="string" sampleData="Team 1 Meet" offset="120" length="12" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team1Points" description="Team1Points" type="string" sampleData="101" offset="132" length="8" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team2Place" description="Team2Place" type="string" sampleData="2" offset="140" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team2FullName" description="Team2FullName" type="string" sampleData="Team 2 Full Name" offset="143" length="47" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team2MeetName" description="Team2MeetName" type="string" sampleData="Team 2 Meet" offset="190" length="12" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team2Points" description="Team2Points" type="string" sampleData="102" offset="202" length="8" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team3Place" description="Team3Place" type="string" sampleData="3" offset="210" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team3FullName" description="Team3FullName" type="string" sampleData="Team 3 Full Name" offset="213" length="47" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team3MeetName" description="Team3MeetName" type="string" sampleData="Team 3 Meet" offset="260" length="12" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team3Points" description="Team3Points" type="string" sampleData="103" offset="272" length="8" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team4Place" description="Team4Place" type="string" sampleData="4" offset="280" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team4FullName" description="Team4FullName" type="string" sampleData="Team 4 Full Name" offset="283" length="47" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team4MeetName" description="Team4MeetName" type="string" sampleData="Team 4 Meet" offset="330" length="12" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team4Points" description="Team4Points" type="string" sampleData="104" offset="342" length="8" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team5Place" description="Team5Place" type="string" sampleData="5" offset="350" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team5FullName" description="Team5FullName" type="string" sampleData="Team 5 Full Name" offset="353" length="47" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team5MeetName" description="Team5MeetName" type="string" sampleData="Team 5 Meet" offset="400" length="12" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team5Points" description="Team5Points" type="string" sampleData="105" offset="412" length="8" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team6Place" description="Team6Place" type="string" sampleData="6" offset="420" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team6FullName" description="Team6FullName" type="string" sampleData="Team 6 Full Name" offset="423" length="47" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team6MeetName" description="Team6MeetName" type="string" sampleData="Team 6 Meet" offset="470" length="12" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team6Points" description="Team6Points" type="string" sampleData="106" offset="482" length="8" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team7Place" description="Team7Place" type="string" sampleData="7" offset="490" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team7FullName" description="Team7FullName" type="string" sampleData="Team 7 Full Name" offset="493" length="47" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team7MeetName" description="Team7MeetName" type="string" sampleData="Team 7 Meet" offset="540" length="12" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team7Points" description="Team7Points" type="string" sampleData="107" offset="552" length="8" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team8Place" description="Team8Place" type="string" sampleData="8" offset="560" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team8FullName" description="Team8FullName" type="string" sampleData="Team 8 Full Name" offset="563" length="47" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team8MeetName" description="Team8MeetName" type="string" sampleData="Team 8 Meet" offset="610" length="12" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team8Points" description="Team8Points" type="string" sampleData="108" offset="622" length="8" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team9Place" description="Team9Place" type="string" sampleData="9" offset="630" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team9FullName" description="Team9FullName" type="string" sampleData="Team 9 Full Name" offset="633" length="47" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team9MeetName" description="Team9MeetName" type="string" sampleData="Team 9 Meet" offset="680" length="12" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team9Points" description="Team9Points" type="string" sampleData="109" offset="692" length="8" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team10Place" description="Team10Place" type="string" sampleData="10" offset="700" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team10FullName" description="Team10FullName" type="string" sampleData="Team 10 Full Name" offset="703" length="47" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team10MeetName" description="Team10MeetName" type="string" sampleData="Team 10 Meet" offset="750" length="12" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Team10Points" description="Team10Points" type="string" sampleData="110" offset="762" length="8" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_1_Place" description="Team 1 Place" type="string" sampleData="1" offset="70" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_1_Full_Name" description="Team 1 Full Name" type="string" sampleData="Team 1 Full Name" offset="73" length="47" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_1_Meet_Name" description="Team 1 Meet Name" type="string" sampleData="Team 1 Meet" offset="120" length="12" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_1_Points" description="Team 1 Points" type="string" sampleData="101" offset="132" length="8" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_2_Place" description="Team 2 Place" type="string" sampleData="2" offset="140" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_2_Full_Name" description="Team 2 Full Name" type="string" sampleData="Team 2 Full Name" offset="143" length="47" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_2_Meet_Name" description="Team 2 Meet Name" type="string" sampleData="Team 2 Meet" offset="190" length="12" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_2_Points" description="Team 2 Points" type="string" sampleData="102" offset="202" length="8" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_3_Place" description="Team 3 Place" type="string" sampleData="3" offset="210" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_3_Full_Name" description="Team 3 Full Name" type="string" sampleData="Team 3 Full Name" offset="213" length="47" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_3_Meet_Name" description="Team 3 Meet Name" type="string" sampleData="Team 3 Meet" offset="260" length="12" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_3_Points" description="Team 3 Points" type="string" sampleData="103" offset="272" length="8" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_4_Place" description="Team 4 Place" type="string" sampleData="4" offset="280" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_4_Full_Name" description="Team 4 Full Name" type="string" sampleData="Team 4 Full Name" offset="283" length="47" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_4_Meet_Name" description="Team 4 Meet Name" type="string" sampleData="Team 4 Meet" offset="330" length="12" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_4_Points" description="Team 4 Points" type="string" sampleData="104" offset="342" length="8" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_5_Place" description="Team 5 Place" type="string" sampleData="5" offset="350" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_5_Full_Name" description="Team 5 Full Name" type="string" sampleData="Team 5 Full Name" offset="353" length="47" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_5_Meet_Name" description="Team 5 Meet Name" type="string" sampleData="Team 5 Meet" offset="400" length="12" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_5_Points" description="Team 5 Points" type="string" sampleData="105" offset="412" length="8" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_6_Place" description="Team 6 Place" type="string" sampleData="6" offset="420" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_6_Full_Name" description="Team 6 Full Name" type="string" sampleData="Team 6 Full Name" offset="423" length="47" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_6_Meet_Name" description="Team 6 Meet Name" type="string" sampleData="Team 6 Meet" offset="470" length="12" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_6_Points" description="Team 6 Points" type="string" sampleData="106" offset="482" length="8" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_7_Place" description="Team 7 Place" type="string" sampleData="7" offset="490" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_7_Full_Name" description="Team 7 Full Name" type="string" sampleData="Team 7 Full Name" offset="493" length="47" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_7_Meet_Name" description="Team 7 Meet Name" type="string" sampleData="Team 7 Meet" offset="540" length="12" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_7_Points" description="Team 7 Points" type="string" sampleData="107" offset="552" length="8" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_8_Place" description="Team 8 Place" type="string" sampleData="8" offset="560" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_8_Full_Name" description="Team 8 Full Name" type="string" sampleData="Team 8 Full Name" offset="563" length="47" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_8_Meet_Name" description="Team 8 Meet Name" type="string" sampleData="Team 8 Meet" offset="610" length="12" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_8_Points" description="Team 8 Points" type="string" sampleData="108" offset="622" length="8" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_9_Place" description="Team 9 Place" type="string" sampleData="9" offset="630" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_9_Full_Name" description="Team 9 Full Name" type="string" sampleData="Team 9 Full Name" offset="633" length="47" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_9_Meet_Name" description="Team 9 Meet Name" type="string" sampleData="Team 9 Meet" offset="680" length="12" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_9_Points" description="Team 9 Points" type="string" sampleData="109" offset="692" length="8" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_10_Place" description="Team 10 Place" type="string" sampleData="10" offset="700" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_10_Full_Name" description="Team 10 Full Name" type="string" sampleData="Team 10 Full Name" offset="703" length="47" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_10_Meet_Name" description="Team 10 Meet Name" type="string" sampleData="Team 10 Meet" offset="750" length="12" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Team_10_Points" description="Team 10 Points" type="string" sampleData="110" offset="762" length="8" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
       </Results>
     </Query>
   </DataSource>
