@@ -1,4 +1,4 @@
-<DataInterfaceDefinition version="2023-03-25T12:49:09.757813+00:00">
+<DataInterfaceDefinition version="2023-04-01T11:11:53.8663239+01:00">
   <DataSource provider="Daktronics.Rtd" description="SSScoreboard Rtd">
     <Query name="RtdData" category="" description="SSScoreboard Rtd" text="SSScoreboard_Rtd" type="1" interval="0" dynamic="true" valuesquery="" show="true" baseoffset="0">
       <Results>
@@ -190,6 +190,26 @@
         <Result name="Line_10_RegNumber" description="Line 10 RegNumber" type="string" sampleData="0000000000" offset="1407" length="10" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_10_Qualified" description="Line 10 Qualified" type="string" sampleData="Q" offset="1417" length="1" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_10_Class_Code" description="Line 10 Class Code" type="string" sampleData="S" offset="1418" length="2" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Right" />
+        <Result name="Line_1_Family_Name" description="Line 1 Family Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNNNNNNE" offset="1420" length="25" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line_1_Given_Name" description="Line 1 Given Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNE" offset="1445" length="20" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line_2_Family_Name" description="Line 2 Family Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNNNNNNE" offset="1465" length="25" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line_2_Given_Name" description="Line 2 Given Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNE" offset="1490" length="20" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line_3_Family_Name" description="Line 3 Family Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNNNNNNE" offset="1510" length="25" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line_3_Given_Name" description="Line 3 Given Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNE" offset="1535" length="20" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line_4_Family_Name" description="Line 4 Family Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNNNNNNE" offset="1555" length="25" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line_4_Given_Name" description="Line 4 Given Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNE" offset="1580" length="20" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line_5_Family_Name" description="Line 5 Family Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNNNNNNE" offset="1600" length="25" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line_5_Given_Name" description="Line 5 Given Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNE" offset="1625" length="20" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line_6_Family_Name" description="Line 6 Family Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNNNNNNE" offset="1645" length="25" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line_6_Given_Name" description="Line 6 Given Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNE" offset="1670" length="20" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line_7_Family_Name" description="Line 7 Family Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNNNNNNE" offset="1690" length="25" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line_7_Given_Name" description="Line 7 Given Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNE" offset="1715" length="20" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line_8_Family_Name" description="Line 8 Family Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNNNNNNE" offset="1735" length="25" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line_8_Given_Name" description="Line 8 Given Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNE" offset="1760" length="20" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line_9_Family_Name" description="Line 9 Family Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNNNNNNE" offset="1780" length="25" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line_9_Given_Name" description="Line 9 Given Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNE" offset="1805" length="20" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line_10_Family_Name" description="Line 10 Family Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNNNNNNE" offset="1825" length="25" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line_10_Given_Name" description="Line 10 Given Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNE" offset="1850" length="20" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
       </Results>
     </Query>
   </DataSource>
