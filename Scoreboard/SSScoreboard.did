@@ -1,4 +1,4 @@
-<DataInterfaceDefinition version="2023-04-01T13:32:48.3761129+01:00">
+<DataInterfaceDefinition version="2023-04-26T19:09:06.7599009+01:00">
   <DataSource provider="Daktronics.Rtd" description="SSScoreboard Rtd">
     <Query name="RtdData" category="" description="SSScoreboard Rtd" text="SSScoreboard_Rtd" type="1" interval="0" dynamic="true" valuesquery="" show="true" baseoffset="0">
       <Results>
@@ -177,7 +177,7 @@
         <Result name="Line_10_Club_Full_Name" description="Line 10 Club Full Name" type="string" sampleData="SNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNE" offset="1315" length="32" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_10_Club_Name" description="Line 10 Club Name" type="string" sampleData="SNNNNNNNNNNE" offset="1347" length="12" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_10_Club_Code" description="Line 10 Club Code" type="string" sampleData="ABCD" offset="1359" length="4" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Line_10_Lane" description="Line 10 Lane" type="string" sampleData="3" offset="1363" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line_10_Lane" description="Line 10 Lane" type="string" sampleData="LLL" offset="1363" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line_10_Place" description="Line 10 Place" type="string" sampleData="PP" offset="1366" length="2" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Right" />
         <Result name="Line_10_Time" description="Line 10 Time" type="string" sampleData="00:00.00" offset="1368" length="8" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Right" />
         <Result name="Line_10_Points" description="Line 10 Points" type="string" sampleData="0000" offset="1376" length="4" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="None" />
