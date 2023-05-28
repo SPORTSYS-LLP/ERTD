@@ -47,6 +47,10 @@ DID: SSRelayChallange
 Input: SPORTSYSTEMS Top Swimmers\
 DID: SSTopSwimmers
 ### Step Five
+If configuring SPORTSYSTEMS Scoreboard you will need to add SSScoreboard as a Data Source under RTD on the DMP web interface. \
+\
+Please refer to the DMP-8000 SERIES DIGITAL MEDIA PLAYER OPERATION MANUAL for more information
+### Step Six
 Save Changes\
 \
 The profiles will now be available in Content Studio
