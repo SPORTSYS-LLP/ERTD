@@ -47,10 +47,18 @@ DID: SSRelayChallange
 Input: SPORTSYSTEMS Top Swimmers\
 DID: SSTopSwimmers
 ### Step Five
-If configuring SPORTSYSTEMS Scoreboard you will need to add SSScoreboard as a Data Source under RTD on the DMP web interface. \
-\
-Please refer to the DMP-8000 SERIES DIGITAL MEDIA PLAYER OPERATION MANUAL for more information
-### Step Six
 Save Changes\
 \
 The profiles will now be available in Content Studio
+### Step Six (Scoreboard ERTD Only)
+If configuring SPORTSYSTEMS Scoreboard you will need to add SSScoreboard as a Data Source under RTD on the DMP web interface.\
+\
+Please refer to the DMP-8000 SERIES DIGITAL MEDIA PLAYER OPERATION MANUAL for more information.\
+\
+Scoreboard Writer has 5 frames which can be configured, the default is.\
+\
+Frame 1 - Start List\
+Frame 2 - Race\
+Frame 3 - Race Team Event\
+Frame 4 - Result\
+Frame 5 - Summary
