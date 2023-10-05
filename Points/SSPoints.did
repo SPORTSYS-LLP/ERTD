@@ -1,10 +1,13 @@
-<DataInterfaceDefinition version="2022-09-18T09:07:59.5470577+01:00">
+<DataInterfaceDefinition version="2023-10-06T00:00:55.3197934+01:00">
   <DataSource provider="Daktronics.Rtd" description="SSPoints Rtd">
     <Query name="RtdData" category="" description="SSPoints Rtd" text="SSPoints_Rtd" type="1" interval="0" dynamic="true" valuesquery="" show="true" baseoffset="0">
       <Results>
-        <Result name="Title" description="Title" type="string" sampleData="Top Club" offset="0" length="8" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Event" description="Event" type="string" sampleData="1" offset="8" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
-        <Result name="Blank" description="Blank" type="string" sampleData="" offset="11" length="59" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Page" description="Page" type="string" sampleData="001" offset="0" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Pages" description="Pages" type="string" sampleData="100" offset="3" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="OnPage" description="OnPage" type="string" sampleData="10" offset="6" length="2" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Event" description="Event" type="string" sampleData="001" offset="8" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Records" description="Records" type="string" sampleData="1000" offset="11" length="4" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Blank" description="Blank" type="string" sampleData="" offset="15" length="55" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Team_1_Place" description="Team 1 Place" type="string" sampleData="1" offset="70" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Team_1_Full_Name" description="Team 1 Full Name" type="string" sampleData="Team 1 Full Name" offset="73" length="47" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Team_1_Meet_Name" description="Team 1 Meet Name" type="string" sampleData="Team 1 Meet" offset="120" length="12" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
