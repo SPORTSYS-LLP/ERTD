@@ -1,4 +1,4 @@
-<DataInterfaceDefinition version="2023-06-03T09:19:59.7299661+01:00">
+<DataInterfaceDefinition version="2023-10-16T17:33:30.5168112+01:00">
   <DataSource provider="Daktronics.Rtd" description="SSScoreboard Rtd">
     <Query name="RtdData" category="" description="SSScoreboard Rtd" text="SSScoreboard_Rtd" type="1" interval="0" dynamic="true" valuesquery="" show="true" baseoffset="0">
       <Results>
@@ -240,6 +240,16 @@
         <Result name="Line_10_Team_Name" description="Line 10 Team Name" type="string" sampleData="TEAMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM" offset="2383" length="46" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line10PendingDSQ" description="Line10PendingDSQ" type="string" sampleData="DSQ" offset="2429" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line10LapTime" description="Line10LapTime" type="string" sampleData="00:00:00" offset="2432" length="8" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line1Finished" description="Line1Finished" type="string" sampleData="Y" offset="2440" length="1" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line2Finished" description="Line2Finished" type="string" sampleData="Y" offset="2441" length="1" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line3Finished" description="Line3Finished" type="string" sampleData="Y" offset="2442" length="1" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line4Finished" description="Line4Finished" type="string" sampleData="Y" offset="2443" length="1" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line5Finished" description="Line5Finished" type="string" sampleData="Y" offset="2444" length="1" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line6Finished" description="Line6Finished" type="string" sampleData="Y" offset="2445" length="1" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line7Finished" description="Line7Finished" type="string" sampleData="Y" offset="2446" length="1" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line8Finished" description="Line8Finished" type="string" sampleData="Y" offset="2447" length="1" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line9Finished" description="Line9Finished" type="string" sampleData="Y" offset="2448" length="1" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Line10Finished" description="Line10Finished" type="string" sampleData="Y" offset="2449" length="1" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
       </Results>
     </Query>
   </DataSource>
