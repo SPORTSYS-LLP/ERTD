@@ -2,7 +2,7 @@
   <DataSource provider="Daktronics.Rtd" description="SSRelayChallange Rtd">
     <Query name="RtdData" category="" description="SSRelayChallange Rtd" text="SSRelayChallange_Rtd" type="1" interval="0" dynamic="true" valuesquery="" show="true" baseoffset="0">
       <Results>
-        <Result name="TItle" description="TItle" type="string" sampleData="Relay Challenge" offset="0" length="15" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Title" description="Title" type="string" sampleData="Relay Challenge" offset="0" length="15" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Event" description="Event" type="string" sampleData="1" offset="15" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Blank" description="Blank" type="string" sampleData="" offset="18" length="59" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Team_1_Place" description="Team 1 Place" type="string" sampleData="01" offset="77" length="3" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
