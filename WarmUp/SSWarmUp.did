@@ -1,0 +1,10 @@
+<DataInterfaceDefinition version="2024-03-18T22:23:46.2986943+00:00">
+  <DataSource provider="Daktronics.Rtd" description="SSWarmUp Rtd">
+    <Query name="RtdData" category="" description="SSWarmUp Rtd" text="SSWarmUp_Rtd" type="1" interval="0" dynamic="true" valuesquery="" show="true" baseoffset="0">
+      <Results>
+        <Result name="Gender" description="Gender" type="string" sampleData="Women's" offset="0" length="7" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="TimeReminding" description="TimeReminding" type="string" sampleData="120:00" offset="7" length="6" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+      </Results>
+    </Query>
+  </DataSource>
+</DataInterfaceDefinition>
