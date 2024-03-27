@@ -1,4 +1,4 @@
-<DataInterfaceDefinition version="2023-10-16T17:33:30.5168112+01:00">
+<DataInterfaceDefinition version="2024-03-27T19:26:38.2381663+00:00">
   <DataSource provider="Daktronics.Rtd" description="SSScoreboard Rtd">
     <Query name="RtdData" category="" description="SSScoreboard Rtd" text="SSScoreboard_Rtd" type="1" interval="0" dynamic="true" valuesquery="" show="true" baseoffset="0">
       <Results>
@@ -250,6 +250,8 @@
         <Result name="Line8Finished" description="Line8Finished" type="string" sampleData="Y" offset="2447" length="1" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line9Finished" description="Line9Finished" type="string" sampleData="Y" offset="2448" length="1" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
         <Result name="Line10Finished" description="Line10Finished" type="string" sampleData="Y" offset="2449" length="1" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Message1" description="Message1" type="string" sampleData="MESSAGE1" offset="2450" length="45" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
+        <Result name="Message2" description="Message2" type="string" sampleData="MESSAGE2" offset="2495" length="45" show="true" rtdColorField="" rtdFontField="" rtdEffectField="" rtdJustification="Left" />
       </Results>
     </Query>
   </DataSource>
