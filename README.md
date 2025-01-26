@@ -62,3 +62,9 @@ Frame 2 - Race\
 Frame 3 - Race Team Event\
 Frame 4 - Result\
 Frame 5 - Summary
+#### Port with Frames
+Network 1 - 20005 \
+Network 2 - 20010
+#### Port no Frames
+Network 1 - 20105 \
+Network 2 - 20110
